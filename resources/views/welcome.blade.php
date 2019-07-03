@@ -87,9 +87,6 @@
           <li class="nav-item">
             <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Others Who Do</a>
-          </li>
         </ul>
 
         <!-- Right -->
@@ -156,7 +153,7 @@
                 <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"The only way to do great work is to love what you do."</br>- Steve Jobs</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
+              <a href="#whatwelove" class="btn btn-outline-white btn-lg">See What We Love 
                 <i class="fas fa-heart ml-2"></i>
               </a>
             </div>
@@ -193,7 +190,7 @@
                     <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"Take a job that you love."<br/>- Warren Buffet</strong>
                 </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
+                <a href="#whatwelove" class="btn btn-outline-white btn-lg">See What We Love 
                 <i class="fas fa-heart ml-2"></i>
               </a>
             </div>
@@ -230,7 +227,7 @@
                     <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"I like to build things, I like to do things. I am having a lot of fun."<br/>-Walter Chrysler</strong>
                 </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
+                <a href="#whatwelove" class="btn btn-outline-white btn-lg">See What We Love 
                 <i class="fas fa-heart ml-2"></i>
               </a>
             </div>
@@ -267,15 +264,16 @@
       <!--Section: Main info-->
       <section class="mt-5 wow fadeIn">
 
+      <div class="row">
+        <div class="col-md-6 mb-4"><a name="whatwelove">&nbsp;</a><br/><br/>&nbsp;</div>
+      </div>
         <!--Grid row-->
         <div class="row">
 
           <!--Grid column-->
           <div class="col-md-6 mb-4">
-
-            <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half"
+            <img src="img/dwyl-neon.png" class="img-fluid z-depth-1-half"
               alt="">
-
           </div>
           <!--Grid column-->
 
@@ -283,22 +281,25 @@
           <div class="col-md-6 mb-4">
 
             <!-- Main heading -->
-            <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
-            <p>This template is created with Material Design for Bootstrap (
-              <strong>MDB</strong> ) framework.</p>
-            <p>Read details below to learn more about MDB.</p>
+            <h3 class="h3 mb-3">What We <i class="fas fa-heart ml-2"></i> </h3>
+            <p>We work on public and private projects, large and small. We have experience in Microsoft Azure and Amazon AWS, but currently work primarly in AWS.</p>
+            <p>We build websites, build web apps, create content, produce video, and whatever else we find to love. If you have an idea rolling around in your mind, let's talk about it. We might just love it ;)</p>
+            <p>Check out the gallery below.</p>
             <!-- Main heading -->
 
-            <hr>
+            <!--<hr>-->
 
-            <p>
+            <!--
+                <p>
               <strong>400+</strong> material UI elements,
               <strong>600+</strong> material icons,
               <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
               <strong>Free for personal and commercial use.</strong>
             </p>
+            -->
 
             <!-- CTA -->
+            <!--
             <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Download
               <i class="fas fa-download ml-1"></i>
             </a>
@@ -306,6 +307,7 @@
               demo
               <i class="far fa-image ml-1"></i>
             </a>
+            -->
 
           </div>
           <!--Grid column-->
@@ -762,7 +764,7 @@
     <!--Copyright-->
     <div class="footer-copyright py-3">
       © 2019 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+      <a href="http://www.dowhatyoulove.work" target="_blank"> DWYL@WORK LLC </a>
     </div>
     <!--/.Copyright-->
 
