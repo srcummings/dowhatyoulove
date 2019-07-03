@@ -22,10 +22,33 @@
       height: 100%;
     }
 
+    .dwyl-text {
+        font-size:138pt;
+    }
+    .dwyl-tagline {
+        font-size:28pt;
+    }
+    .dwyl-quote {
+        font-size:18pt;
+    }
+
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {
         background: #1C2331 !important;
       }
+    }
+
+    @media only screen and (min-width: 375px) and (orientation: portrait) {
+        .dwyl-text {
+            font-size:72pt;
+        }
+        .dwyl-tagline {
+            font-size:14pt;
+        }
+        .dwyl-quote {
+            font-size:9pt;
+        }
+
     }
 
   </style>
@@ -124,15 +147,13 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong style="font-family:'Cabin', sans-serif;font-size:138pt;">DWYL</strong>
+                <strong class="dwyl-text" style="font-family:'Cabin', sans-serif;">DWYL</strong>
               </h1>
-
               <p>
-                <strong style="font-family:'Cabin', sans-serif;font-size:28pt;">play isn't work : do what you love</strong>
+                <strong class="dwyl-tagline" style="font-family:'Cabin', sans-serif;">play isn't work : do what you love</strong>
               </p>
-
               <p class="mb-4 d-none d-md-block">
-                <strong style="font-family:'Cabin', sans-serif;font-size:18pt;">"The only way to do great work is to love what you do."</br>- Steve Jobs</strong>
+                <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"The only way to do great work is to love what you do."</br>- Steve Jobs</strong>
               </p>
 
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
@@ -162,17 +183,15 @@
 
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong style="font-family:'Cabin', sans-serif;font-size:138pt;">DWYL</strong>
-              </h1>
-
-              <p>
-                <strong style="font-family:'Cabin', sans-serif;font-size:28pt;">play isn't work : do what you love</strong>
-              </p>
-
-              <p class="mb-4 d-none d-md-block">
-                <strong style="font-family:'Cabin', sans-serif;font-size:18pt;">"Take a job that you love."<br/>- Warren Buffet</strong>
-              </p>
+                <h1 class="mb-4">
+                    <strong class="dwyl-text" style="font-family:'Cabin', sans-serif;">DWYL</strong>
+                </h1>
+                <p>
+                    <strong class="dwyl-tagline" style="font-family:'Cabin', sans-serif;">play isn't work : do what you love</strong>
+                </p>
+                <p class="mb-4 d-none d-md-block">
+                    <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"Take a job that you love."<br/>- Warren Buffet</strong>
+                </p>
 
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
                 <i class="fas fa-heart ml-2"></i>
@@ -201,17 +220,15 @@
 
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong style="font-family:'Cabin', sans-serif;font-size:138pt;">DWYL</strong>
-              </h1>
-
-              <p>
-                <strong style="font-family:'Cabin', sans-serif;font-size:28pt;">play isn't work : do what you love</strong>
-              </p>
-
-              <p class="mb-4 d-none d-md-block">
-                <strong style="font-family:'Cabin', sans-serif;font-size:18pt;">"I like to build things, I like to do things. I am having a lot of fun."<br/>-Walter Chrysler</strong>
-              </p>
+                <h1 class="mb-4">
+                    <strong class="dwyl-text" style="font-family:'Cabin', sans-serif;">DWYL</strong>
+                </h1>
+                <p>
+                    <strong class="dwyl-tagline" style="font-family:'Cabin', sans-serif;">play isn't work : do what you love</strong>
+                </p>
+                <p class="mb-4 d-none d-md-block">
+                    <strong class="dwyl-quote" style="font-family:'Cabin', sans-serif;">"I like to build things, I like to do things. I am having a lot of fun."<br/>-Walter Chrysler</strong>
+                </p>
 
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">See What We Love 
                 <i class="fas fa-heart ml-2"></i>
